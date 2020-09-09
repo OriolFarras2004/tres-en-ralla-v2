@@ -9,6 +9,8 @@ class AppInici():
 		
 		self.root.title("Configuració inicial")
 		
+		self.root.resizable(width=False, height=False)
+		
 		self.frame = Frame(self.root, padx=10, pady=10)
 		self.frame.pack()
 		
